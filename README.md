@@ -15,5 +15,5 @@ ExportEacCpf is a plugin for [Omeka](https://omeka.org/) that allows to export d
 
 ## Credits
 
--Graziella Pastore, [ENC](http://www.enc-sorbonne.fr/) - [INRIA](http://www.inria.fr/)
--Luca Foppiano [INRIA](http://www.inria.fr/)
+- Graziella Pastore, [ENC](http://www.enc-sorbonne.fr/) - [INRIA](http://www.inria.fr/)
+- Luca Foppiano [INRIA](http://www.inria.fr/)
