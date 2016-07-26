@@ -1,19 +1,49 @@
 # ExportEacCpf
+###### Work in progress
+ExportEacCpf is a plugin for [Omeka](https://omeka.org/) that allows to export data as a basic [EAC-CPF](http://eac.staatsbibliothek-berlin.de/index.php), an XML-Schema providing a grammar for encoding names of creators of archival materials and related information. 
 
-ExportEacCpf is a plugin for [Omeka](https://omeka.org/) that allows to export data as a basic [EAC-CPF](http://eac.staatsbibliothek-berlin.de/index.php), an XML-Schema providing a grammar for encoding names of creators of archival materials and related information.
+For the moment, since Omeka data input interface does not allow to simulate hierarchical elements, 'ExportEacCpf' plugin just consider a limited set of EAC-CPF elements, some of them need to be reworked a little bit on the output file. 
+
+This plugin could be used in conbination with [XmlImport](https://github.com/Daniel-KM/XmlImport), after a proper [XSL tranformation](https://github.com/sgraziella/prosopography_LJP/tree/master/EACtoXML), in order to manage by Omeka a simple cycle of Importing/Exporting EAC-CPF data. 
+An exemple of this kind of data processing cycle is put in place on this projet : [http://josticeetplet.huma-num.fr/](http://josticeetplet.huma-num.fr/)
 
 
-## Installation
+## Installation and Specifications
+1. Download the 'ExportEacCpf' plugin directory ;
+2. Take a look on EacCpfExporter.php and configure which fields you want to use. In order to used the default configuration, you need to create a new Item Type by Omeka interface or modify an existing Item Type by adding the EAC-CPF elements listing below ;
+3. Upload the 'ExportEacCpf' plugin directory to your Omeka installation's 'plugins' directory ;
+4. Activate the plugin from the Admin → Settings → Plugins page.
 
-1. Upload the 'ExportEacCpf' plugin directory to your Omeka installation's 'plugins' directory.
-2. Activate the plugin from the Admin → Settings → Plugins page
-3. Configure the plugin to choose which fields you want the plugin to use (+++)
+The export is based on this following fields, both for Dublin Core and Item Type Metadata Set :
+
+###### Dublin Core 
+- Accrual Method
+- Accrual Policy
+- Conforms To
+- Creator
+- Date Created
+- Identifier
+- Instructional Method
+- Language
+- Publisher
+- Title
+- Type
+
+###### EAC-CPF Item Type Metadata
+(A basic set of Item Types Elements could be modified according to needs)
+- Biography or Historical Note
+- Dates of Existence
+- Functions
+- Name Entry Parallel
+- Places
+- Relations
+- Sources
+
 
 ## Licence
-[BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)
+This plugin is released under the [BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)
 
 
 ## Credits
-
-- Graziella Pastore, [ENC](http://www.enc-sorbonne.fr/) - [INRIA](http://www.inria.fr/)
-- Luca Foppiano [INRIA](http://www.inria.fr/)
+- Created by Graziella Pastore, [Ecole nationale des chartes](http://www.enc-sorbonne.fr/fr/graziella-pastore) - [INRIA](http://www.inria.fr/), Paris
+- With the strong support of Luca Foppiano, [INRIA](http://www.inria.fr/), Paris
