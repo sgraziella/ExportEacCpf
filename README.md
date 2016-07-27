@@ -12,7 +12,7 @@ An example of this kind of data processing cycle is put in place on this project
 
 ## Installation and Specifications
 1. Download the *ExportEacCpf* plugin directory;
-2. Take a look on *EacCpfExporter.php* and configure which fields you want to use. In order to used the default configuration, you need to create a new Item Type using the Omeka interface or modify an existing Item Type by adding the EAC-CPF elements listing below;
+2. Take a look on *helpers/EacCpfExporter.php* and configure which fields you want to use. In order to used the default configuration, you need to create a new Item Type using the Omeka interface (we called that EAC-CPF Item Type Metadata) or modify an existing Item Type by adding the EAC-CPF elements listing below;
 3. Upload the *ExportEacCpf* plugin directory to your Omeka installation's *plugins* directory;
 4. Activate the plugin from the Admin → Settings → Plugins page.
 
