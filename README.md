@@ -40,10 +40,23 @@ The export is based on this following fields, both from Dublin Core and Item Typ
 - Relations
 - Sources
 
-EAC-CPF Item Type Metadata is a basic set of Item Types Elements you could modify according to yours needs. This is the setting we use:
+EAC-CPF Item Type Metadata is a basic set of Item Types Elements you could modify according to yours needs. 
+
+This is the setting we use in our project:
 
 ![Image of EAC-CPF Type](https://github.com/sgraziella/ExportEacCpf/blob/master/Person-EAC-CPF-ElementTypeFR.png)
 
+Also available in English version:
+
+Element (from Omeka Item Type) | Description
+------------ | -------------
+name Entry Parallel | EAC-CPF [NameEntryParallel](http://eac.staatsbibliothek-berlin.de/fileadmin/user_upload/schema/cpfTagLibrary.html#nameEntryParallel). A wrapper element for two or more <nameEntry> elements that represent parallel forms of the name. May contain: alternativeForm, authorizedForm, nameEntry, useDates
+Dates of Existence | EAC-CPF [existDates](http://eac.staatsbibliothek-berlin.de/fileadmin/user_upload/schema/cpfTagLibrary.html#existDates). The dates of existence of the entity being described, such as dates of establishment and dissolution for corporate bodies and dates of birth and death or *floruit* for persons. May contain: date, dateRange, dateSet, descriptiveNote
+Places | EAC-CPF [places](http://eac.staatsbibliothek-berlin.de/fileadmin/user_upload/schema/cpfTagLibrary.html#places). A grouping element used to bundle together individual <place> elements. May contain: citation, descriptiveNote, list, outline, p, place
+Functions | EAC-CPF [functions](http://eac.staatsbibliothek-berlin.de/fileadmin/user_upload/schema/cpfTagLibrary.html#functions). A grouping element used to bundle together individual <function> elements. May contain: citation, descriptiveNote, function, list, outline, p
+Biography or historical Note | EAC-CPF [biogHist](http://eac.staatsbibliothek-berlin.de/fileadmin/user_upload/schema/cpfTagLibrary.html#biogHist). A concise essay and/or chronology that provides biographical or historical information about the EAC-CPF entity. May contain: abstract, chronList, citation, list, outline, p
+Sources | EAC-CPF [sources](http://eac.staatsbibliothek-berlin.de/fileadmin/user_upload/schema/cpfTagLibrary.html#sources). A grouping element to record of the sources used for the description of the CPF entity in the EAC-CPF instance.
+Relations | EAC-CPF [relations](http://eac.staatsbibliothek-berlin.de/fileadmin/user_upload/schema/cpfTagLibrary.html#relations). A wrapper element for grouping one or more specific relations, each of them expressed by cpfRelation, resourceRelation, or functionRelation.
 
 ## Licence
 This plugin is released under the [BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)
