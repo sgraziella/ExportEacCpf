@@ -16,7 +16,7 @@ An example of this kind of data processing cycle is put in place on this project
 3. Upload the *ExportEacCpf* plugin directory to your Omeka installation's *plugins* directory;
 4. Activate the plugin from the Admin → Settings → Plugins page.
 
-The export is based on this following fields, both for Dublin Core and Item Type Metadata Set :
+The export is based on this following fields, both from Dublin Core and Item Type Metadata Set :
 
 ##### Dublin Core 
 - Accrual Method
