@@ -46,7 +46,7 @@ This is the setting we use in our project:
 
 ![Image of EAC-CPF Type](https://github.com/sgraziella/ExportEacCpf/blob/master/Person-EAC-CPF-ElementTypeFR.png)
 
-Also available in English version:
+Here the English version:
 
 Element (from Omeka Item Type) | Description
 ------------ | -------------
