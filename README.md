@@ -2,9 +2,9 @@
 
 _*Work in progress*_
 
-*ExportEacCpf* is a plugin for [Omeka](https://omeka.org/) that allows to export data as a basic [EAC-CPF](http://eac.staatsbibliothek-berlin.de/index.php), an XML-Schema providing a grammar for encoding names of creators of archival materials and related information. 
+*ExportEacCpf* is a plugin for [Omeka](https://omeka.org/) that allows to export data as basic [EAC-CPF](http://eac.staatsbibliothek-berlin.de/index.php), an XML-Schema providing a grammar for encoding names of creators of archival materials and related information. 
 
-For the moment, since Omeka data input interface does not have a general way to manage multiple levels of elements or allow to simulate hierarchical elements, *ExportEacCpf* plugin just consider a limited set of EAC-CPF elements, some of them need to be reworked a little bit on the output file.
+For the moment, since Omeka data input interface does not have a general way to manage multiple levels of description or allow to simulate hierarchical elements, *ExportEacCpf* plugin just consider a limited set of EAC-CPF elements, some of them need to be reworked a little bit on the output file.
 
 This plugin could be used in combination with [XmlImport](https://github.com/Daniel-KM/XmlImport), after a proper [XSL tranformation](https://github.com/sgraziella/prosopography_LJP/tree/master/EACtoXML), in order to manage by Omeka a simple cycle of Importing/Exporting EAC-CPF data. 
 An example of this kind of data processing cycle is put in place on this project: [http://josticeetplet.huma-num.fr/](http://josticeetplet.huma-num.fr/)
@@ -12,7 +12,7 @@ An example of this kind of data processing cycle is put in place on this project
 
 ## Installation and Specifications
 1. Download the *ExportEacCpf* plugin directory;
-2. Take a look on *EacCpfExporter.php* and configure which fields you want to use. In order to used the default configuration, you need to create a new Item Type by Omeka interface or modify an existing Item Type by adding the EAC-CPF elements listing below;
+2. Take a look on *EacCpfExporter.php* and configure which fields you want to use. In order to used the default configuration, you need to create a new Item Type using the Omeka interface or modify an existing Item Type by adding the EAC-CPF elements listing below;
 3. Upload the *ExportEacCpf* plugin directory to your Omeka installation's *plugins* directory;
 4. Activate the plugin from the Admin → Settings → Plugins page.
 
