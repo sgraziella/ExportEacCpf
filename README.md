@@ -30,7 +30,6 @@ The export is based on this following fields, both for Dublin Core and Item Type
 - Type
 
 ##### EAC-CPF Item Type Metadata
-A basic set of Item Types Elements could be modified according to needs
 - Biography or Historical Note
 - Dates of Existence
 - Functions
@@ -38,6 +37,10 @@ A basic set of Item Types Elements could be modified according to needs
 - Places
 - Relations
 - Sources
+
+This is a basic set of Item Types Elements you could modify according to yours needs.
+
+![alt tag](https://github.com/sgraziella/ExportEacCpf/blob/master/Person-EAC-CPF-ElementTypeFR.png)
 
 
 ## Licence
