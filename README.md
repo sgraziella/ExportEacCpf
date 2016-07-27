@@ -18,7 +18,7 @@ An example of this kind of data processing cycle is put in place on this project
 
 The export is based on this following fields, both from Dublin Core and Item Type Metadata Set :
 
-#### Dublin Core 
+### Dublin Core 
 - Accrual Method
 - Accrual Policy
 - Conforms To
@@ -31,7 +31,7 @@ The export is based on this following fields, both from Dublin Core and Item Typ
 - Title
 - Type
 
-#### EAC-CPF Item Type Metadata
+### EAC-CPF Item Type Metadata
 - Biography or Historical Note
 - Dates of Existence
 - Functions
