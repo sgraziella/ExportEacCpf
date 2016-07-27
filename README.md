@@ -61,6 +61,8 @@ Relations | EAC-CPF [relations](http://eac.staatsbibliothek-berlin.de/fileadmin/
 ## Licence
 This plugin is released under the [BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)
 
+## Version
+0.1 - July 2016
 
 ## Credits
 - Created by [Graziella Pastore](https://github.com/sgraziella), [Ecole nationale des chartes](http://www.enc-sorbonne.fr/fr/graziella-pastore) - [INRIA](http://www.inria.fr/), Paris
