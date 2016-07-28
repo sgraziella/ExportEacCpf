@@ -48,7 +48,7 @@ This is the setting we use in our project:
 
 Here the English version:
 
-Element (from Omeka Item Type) | Description
+Element (Omeka Item Type) | Description
 ------------ | -------------
 name Entry Parallel | EAC-CPF [NameEntryParallel](http://eac.staatsbibliothek-berlin.de/fileadmin/user_upload/schema/cpfTagLibrary.html#nameEntryParallel). A wrapper element for two or more <nameEntry> elements that represent parallel forms of the name. May contain: alternativeForm, authorizedForm, nameEntry, useDates
 Dates of Existence | EAC-CPF [existDates](http://eac.staatsbibliothek-berlin.de/fileadmin/user_upload/schema/cpfTagLibrary.html#existDates). The dates of existence of the entity being described, such as dates of establishment and dissolution for corporate bodies and dates of birth and death or *floruit* for persons. May contain: date, dateRange, dateSet, descriptiveNote
