@@ -40,7 +40,7 @@ The export is based on this following fields, both from Dublin Core and Item Typ
 - Relations
 - Sources
 
-EAC-CPF Item Type Metadata is a basic set of Item Types Elements you could modify according to yours needs. 
+EAC-CPF Item Type Metadata is a basic set of Item Types Elements you could modify according to yours needs (this set does not cover all EAC-CPF elements and possible attribute values).
 
 This is the setting we use in our project:
 
