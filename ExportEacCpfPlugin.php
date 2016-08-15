@@ -12,7 +12,7 @@ class ExportEacCpfPlugin extends Omeka_Plugin_AbstractPlugin
             if(array_key_exists('id', $params)) {
                 $item = get_record_by_id("item",$params['id']);
                 if(!is_null($item)) {
-                    // exclude Bibliography collection
+                    // excludes Bibliography collection
                     $collection = get_record_by_id("collection", $item['collection_id']);
                     $collectionName = metadata($collection, array('Dublin Core', 'Title'));
                     if($collectionName != 'Bibliographie'){// && $collectionName != '*'){
